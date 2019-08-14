@@ -1,13 +1,24 @@
 name: trans2fw
 version: 0.0.1
 description: 自动把 flutter native 项目转化成 flutter-web 项目
-publish_to: none
+publish_to:  https://pub.dartlang.org
 
 dependencies:
-    args: any
-    dart_inquirer: any
-    console: any
-    path: any
+  args: ^1.5.2
+  dart_inquirer: ^1.0.0
+  console: ^3.1.0
+  path: ^1.6.4
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+authors:
+  - ryan <zhuyan730@163.com>
+
+homepage: https://github.com/ryan730/trans2fw
 
 executables:
-  build-fw:
+  trans2fw:
+
+# pub publish --dry-run --server=https://pub.dartlang.org
+# pub publish -v --server=https://pub.dartlang.org

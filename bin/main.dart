@@ -7,8 +7,6 @@
  * tartget:
  */
 //library testCom;
-//
-//export 'main.dart';
 //export 'creatHtml.dart';
 void main(List<String> arguments){
   print("hello world");
