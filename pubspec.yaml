@@ -1,0 +1,13 @@
+name: trans2fw
+version: 0.0.1
+description: 自动把 flutter native 项目转化成 flutter-web 项目
+publish_to: none
+
+dependencies:
+    args: any
+    dart_inquirer: any
+    console: any
+    path: any
+
+executables:
+  build-fw:
