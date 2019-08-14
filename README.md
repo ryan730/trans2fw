@@ -1,3 +1,10 @@
+### trans2fw 是一个快速将 `flutter native`  开发的文件转换成 `flutter-web` 的工具。
+| 目前工具只处理官方常用的代码库处理成web版本，后续会增加更多第三方库的支持。
+
+### 使用前准备
+- [请了解 `Flutter-web` 官方说明](https://github.com/flutter/flutter_web/blob/master/README.md)
+- [请了解 `Flutter-web` 的迁移指南](https://github.com/flutter/flutter_web/blob/master/docs/migration_guide.md)
+
 ### 使用pub global命令将文件包注册到全局
 ```dart
 pub global activate trans2fw
