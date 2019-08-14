@@ -1,8 +1,12 @@
 ### 使用pub global命令将文件包注册到全局
+```dart
 pub global activate trans2fw
+```
 
-### 使用pub global run命令运行注册的脚本文件 #
+### 使用pub global run命令运行注册的脚本文件 
+```dart
 pub global run trans2fw
+```
 
 ### 运行 `trans2fw` 工具,根据提示输入
 ```dart
