@@ -7,6 +7,7 @@ package:flutter/widgets.dart -> package:flutter_web/widgets.dart
 package:flutter/cupertino.dart -> package:flutter_web/cupertino.dart
 package:flutter/services.dart -> package:flutter_web/services.dart
 package:flutter/rendering.dart -> package:flutter_web/rendering.dart
+package:flutter/gestures.dart -> package:flutter_web/gestures.dart
 dart:ui -> package:flutter_web_ui/ui.dart
 ```
 
