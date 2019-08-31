@@ -1,17 +1,17 @@
-/**
- * Created with Android Studio.
- * User: 一晟
- * Date: 2019/6/9
- * Time: 10:15 AM
- * email: zhu.yan@alibaba-inc.com
- * tartget:
- */
-import 'dart:async';
+/// 
+/// Created with Android Studio.
+/// User: 一晟
+/// Date: 2019/6/9
+/// Time: 10:15 AM
+/// email: zhu.yan@alibaba-inc.com
+/// tartget:
+/// 
+/// import 'dart:async';
 import 'dart:io';
-import 'dart:convert';
+/// import 'dart:convert';
 import 'package:dart_inquirer/dart_inquirer.dart';
 import 'package:console/console.dart';
-import 'package:path/path.dart' as path;
+/// import 'package:path/path.dart' as path;
 
 const defaultPath = "";
 var projectPath = (Directory.current.uri).toString();
